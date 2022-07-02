@@ -10,7 +10,7 @@
 
 html {
     box-sizing: border-box;
-}
+   }
 *,
 *::after,
 *::before {
@@ -68,12 +68,14 @@ img {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    /* padding-bottom: -94px; */
     
 }
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    }
+}
+
 /* Body */
 body {
     background-color: var(--primary-white-color);
@@ -168,9 +170,8 @@ ul {
 }
 .mail,
 .phone {
-    Font size: 14px 
-    Line height: 1,71; 
-    letter spacing: 3%; 
+    font-size: 14px; 
+    line-height: 1,71; 
     fill: solid rgba(255, 255, 255, 0.6);
 }
 
@@ -200,6 +201,9 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
 }
+section .inner {
+    padding-bottom: 94px;
+}
  /* Секция о нас */
  .feature-list {
     display: flex;
@@ -213,6 +217,9 @@ ul {
 }
  .feature-item:last-child {
     margin-right: 0;
+ }
+ .feature {
+    padding-bottom: 0;
  }
  
  .feature-list .item {
@@ -295,12 +302,13 @@ font-family: 'Roboto';
 /* Секция о работе */
 .img {
     display: flex;
-  
-   }
+     }
+
 .img-marg {
-    margin-right: 30px;
+    /* margin-right: 30px; */
     width: 370px;
     }
+
 .img .img-marg + .img-marg {
     margin-left: 30px;
 } 
@@ -313,7 +321,7 @@ font-family: 'Roboto';
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+    }
 /* Наша команда */
 .teems-list {
     display: flex;
@@ -351,8 +359,7 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
 }
 .card-teems {
-    padding: 30px; 0;
-    
+    padding: 30px 0;
 }
 .card-teems p {
     margin-bottom: 0;
@@ -375,10 +382,10 @@ font-family: 'Roboto';
 }
 
 .gallery {
-    margin-top: 50px;
+    margin-top: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
 .elements {
@@ -416,7 +423,7 @@ font-family: 'Roboto';
     margin: 0;
 }
 .cards-proects {
-    padding: 20px; 24px;
+    padding: 20px 24px;
 }
 
 /* Footer */
@@ -432,7 +439,8 @@ font-family: 'Roboto';
     margin-right: auto;
     margin-left: auto;
     /* width: 1600px; */
-    height: 252px;
+    /* height: 252px; */
+    padding: 60px 1240px 60px 215px;
 }
 .stydio-footer {
     color: var(--primary-white-color);
