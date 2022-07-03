@@ -161,18 +161,18 @@ ul {
     margin-left: 50px;
 }
 .link-contacts {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
-    color: var(--title-text-color);
+    color: var(--title-footer-color);
     text-decoration: none;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
 .mail,
 .phone {
     font-size: 14px; 
-    line-height: 1,71; 
-    fill: solid rgba(255, 255, 255, 0.6);
+    line-height: 1.71; 
+    /* fill: solid rgba(255, 255, 255, 0.6); */
 }
 
 
@@ -379,10 +379,11 @@ font-family: 'Roboto';
 } */
 .button.primery .secondary {
     justify-content: center;
+    /* margin-bottom: 50px; */
 }
 
 .gallery {
-    margin-top: 0;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     /* margin-bottom: 94px; */
@@ -434,13 +435,12 @@ font-family: 'Roboto';
 }
 .footer-fon {
     background-color: var(--primary-grey-color);
-    display: flex;
+    /* display: flex;
     flex-direction: column; 
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;*/
     /* width: 1600px; */
     /* height: 252px; */
-    padding: 60px 1240px 60px 215px;
 }
 .stydio-footer {
     color: var(--primary-white-color);
